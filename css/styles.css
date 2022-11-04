@@ -13,7 +13,14 @@ p {
   margin: 0;
   padding: 0;
 }
-
+.title {
+  color: #c30052;
+  font-size: 30px;
+  
+}
+.title__team{
+  margin-bottom: -10px;
+}
 .container {
   display: grid;
   min-height: 90vh;
@@ -24,32 +31,76 @@ p {
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   min-width: 25rem;
+  padding: 8px;
+}
+.card__box {
+  width: 100%;
+  min-height: 20rem;
+  border-radius: 0.7rem;
+  box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
+  margin: auto ;
+
+}
+.card__box--sunrise{
+  background-image: linear-gradient(990deg,  #daae51 0%, #d53369 100%);
+}
+.card__box--frost{
+  background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 100%)
+}
+.card__box--lime{
+  background-image: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%)
 }
 
 .card-horizontal {
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   max-width: 32rem;
+  margin: 10px 10px 0px 10px;
+  padding: 10px 20px 20px;
+  color: #fff;
+  font-size: 13px;
+  
+}
+.card-horizontal--sunrise{
+  background-image: linear-gradient(990deg,  #daae51 0%, #d53369 100%);
+
+}
+.card-horizontal--lime{
+  background-image: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%)
+
+}
+.card-horizontal--frost{
+  background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 100%)
+
 }
 
-.box {
-  width: 100%;
-  min-height: 20rem;
-  border-radius: 0.7rem;
-  box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
-}
 
 hr {
   border: 1px solid rgba(51, 51, 51, 0.062);
 }
 
-button {
+.card__btn {
   border: none;
   border-radius: 0.3rem;
   box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.444);
   cursor: pointer;
   display: block;
+  margin: auto;
+  padding: 10px 20px;
+  color: #fff;
+
 }
+
+.card__btn--sunrise{
+  background-image: linear-gradient(990deg,  #daae51 0%, #d53369 100%);
+}
+.card__btn--frost{
+  background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 100%)
+}
+.card__btn--lime{
+  background-image: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%)
+}
+
 
 .wrapper {
   padding: 1rem 0;
@@ -68,3 +119,11 @@ button {
     max-width: 90vw;
   }
 }
+
+h2{
+  font-size: 25px;
+  text-align: center;
+  color: #333;
+  margin: auto;
+}
+
